@@ -1,0 +1,172 @@
+local Rayfield = loadstring(game:HttpGet('https://sirius.menu/rayfield'))()
+
+local Window = Rayfield:CreateWindow({
+   Name = "🌌IOER HUB | Main Scripts V2 🖥️📱",
+   LoadingTitle = "Main Scripts V2",
+   LoadingSubtitle = "BY IOER HUB",
+   ConfigurationSaving = {
+      Enabled = false,
+      FolderName = nil, -- Create a custom folder for your hub/game
+      FileName = "Example Hub"
+   },
+})
+
+local Back = Window:CreateTab("⏪ Back", nil)
+local Blox = Window:CreateTab("🍇 Blox Fruits", nil)
+local Bro = Window:CreateTab("🏡 Brookhaven", nil)
+local Blind = Window:CreateTab("🧑‍🦯 Blind Shot", nil)
+
+Rayfield:Notify({
+   Title = "Notification Alert",
+   Content = "Thank You For Use This Scripts",
+   Duration = 5,
+   Image = 4483362458,
+   Actions = { -- Notification Buttons
+      Ignore = {
+         Name = "Okay!",
+         Callback = function()
+         print("The user tapped Okay!")
+      end
+   },
+},
+})
+
+local MainSection = Back:CreateSection("Back Scripts IOER Hub")
+local Paragraph = Back:CreateParagraph({Title = "⏪ Back Tab", Content = "Click Script For Back Tab"})
+local Button = Back:CreateButton({
+   Name = "<<Back - IOERHUB",
+   Callback = function()
+   
+   end,
+})
+
+local MainSection = Blox:CreateSection("Main Scripts V1")
+local Paragraph = Blox:CreateParagraph({Title = "⚠️ Information", Content = "Use Executor 99/100% For Experience"})
+local Button = Blox:CreateButton({
+   Name = "Blue x Hub",
+   Callback = function()
+   loadstring(game:HttpGet("https://raw.githubusercontent.com/Dev-BlueX/BlueX-Hub/refs/heads/main/Main.lua"))()
+   end,
+})
+
+local Button = Blox:CreateButton({
+   Name = "alchemyhub",
+   Callback = function()
+   loadstring(game:HttpGet("https://scripts.alchemyhub.xyz"))()
+   end,
+})
+
+local Button = Blox:CreateButton({
+   Name = "QuantumOnyx",
+   Callback = function()
+   loadstring(game:HttpGet("https://raw.githubusercontent.com/flazhy/QuantumOnyx/refs/heads/main/QuantumOnyx.lua"))()
+   end,
+})
+
+local MainSection = Blox:CreateSection("Main Scripts V2")
+local Button = Blox:CreateButton({
+   Name = "AnDepZaiHub",
+   Callback = function()
+   loadstring(game:HttpGet("https://raw.githubusercontent.com/h6hbii/AnDepZaiHub/refs/heads/main/AndepzaiHub.lua"))()
+   end,
+})
+
+local Button = Blox:CreateButton({
+   Name = "Tuan",
+   Callback = function()
+   loadstring(game:HttpGet("https://raw.githubusercontent.com/AnhTuanDzai-Hub/TuanAnhIOS/refs/heads/main/TuanAnhIOS-Main.Lua"))()
+   end,
+})
+
+local Button = Blox:CreateButton({
+   Name = "HOHO hub",
+   Callback = function()
+   loadstring(game:HttpGet("https://raw.githubusercontent.com/acsu123/HOHO_H/main/Loading_UI"))()
+   end,
+})
+
+local Button = Blox:CreateButton({
+   Name = "CokkaHub",
+   Callback = function()
+   loadstring(game:HttpGet"https://raw.githubusercontent.com/UserDevEthical/Loadstring/main/CokkaHub.lua")()
+   end,
+})
+
+local MainSection = Bro:CreateSection("Main Scripts V1")
+local Paragraph = Bro:CreateParagraph({Title = "⚠️ Information", Content = "Use Executor 99/100% For Experience"})
+local Button = Bro:CreateButton({
+   Name = "SP HUB",
+   Callback = function()
+   loadstring(game:HttpGet("https://raw.githubusercontent.com/as6cd0/SP_Hub/refs/heads/main/Brookhaven"))()
+   end,
+})
+
+local Button = Bro:CreateButton({
+   Name = "Sander XY",
+   Callback = function()
+   loadstring(game:HttpGet("https://raw.githubusercontent.com/kigredns/testUIDK/refs/heads/main/panel.lua"))()
+   end,
+})
+
+local Button = Bro:CreateButton({
+   Name = "No Name",
+   Callback = function()
+   loadstring(game:HttpGet("https://pastefy.app/fqYcv7vR/raw"))()
+   end,
+})
+
+local Button = Bro:CreateButton({
+   Name = "Tubers Hub",
+   Callback = function()
+   loadstring(game:HttpGet("https://pastefy.app/5RXjUt9d/raw"))()
+   end,
+})
+
+local MainSection = Bro:CreateSection("Main Scripts V2")
+local Button = Bro:CreateButton({
+   Name = "Rendz Hub",
+   Callback = function()
+   loadstring(game:HttpGet("https://pastefy.app/9OoVFBCU/raw"))()
+   end,
+})
+
+local MainSection = Blind:CreateSection("Main Scripts V1")
+local Paragraph = Blind:CreateParagraph({Title = "⚠️ Information", Content = "Use Executor 99/100% For Experience"})
+local Button = Blind:CreateButton({
+   Name = "BAFscript",
+   Callback = function()
+   loadstring(game:HttpGet('https://pastefy.app/D61KBKLf/raw'))()
+   end,
+})
+
+local Button = Blind:CreateButton({
+   Name = "No Name",
+   Callback = function()
+   loadstring(game:HttpGet("https://pastebin.com/raw/vjB2N8PE"))()
+   end,
+})
+
+local Button = Blind:CreateButton({
+   Name = "Blind Shot",
+   Callback = function()
+   loadstring(game:HttpGet("https://pastefy.app/ucfjm7sc/raw"))()
+   end,
+})
+
+local Button = Blind:CreateButton({
+   Name = "Toraisme",
+   Callback = function()
+   loadstring(game:HttpGet("https://raw.githubusercontent.com/gumanba/Scripts/main/BlindShot"))()
+   end,
+})
+
+local MainSection = Blind:CreateSection("Main Scripts V2")
+local Button = Blind:CreateButton({
+   Name = "Blind Shot V2",
+   Callback = function()
+   loadstring(game:HttpGet("https://pastefy.app/ULaWpxKm/raw"))()
+   end,
+})
+
+print("IOER HUB V2 loaded Successfully, Thanks for Using this script!")
+print("Created By IOER Hub, pastebin.com/u/ty4rds")
