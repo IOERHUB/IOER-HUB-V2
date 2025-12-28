@@ -36,7 +36,7 @@ local Paragraph = Back:CreateParagraph({Title = "⏪ Back Tab", Content = "Click
 local Button = Back:CreateButton({
    Name = "<<Back - IOERHUB",
    Callback = function()
-   
+   loadstring(game:HttpGet("https://raw.githubusercontent.com/IOERHUB/Main/refs/heads/main/Windows"))()
    end,
 })
 
