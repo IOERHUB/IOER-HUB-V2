@@ -15,6 +15,7 @@ local Back = Window:CreateTab("⏪ Back", nil)
 local Blox = Window:CreateTab("🍇 Blox Fruits", nil)
 local Bro = Window:CreateTab("🏡 Brookhaven", nil)
 local Blind = Window:CreateTab("🧑‍🦯 Blind Shot", nil)
+local Forge = Window:CreateTab("⚒️ The Forge", nil)
 
 Rayfield:Notify({
    Title = "Notification Alert",
@@ -167,6 +168,87 @@ local Button = Blind:CreateButton({
    loadstring(game:HttpGet("https://pastefy.app/ULaWpxKm/raw"))()
    end,
 })
+
+local MainSection = Forge:CreateSection("Main Scripts V1")
+local Paragraph = Forge:CreateParagraph({Title = "⚠️ Information", Content = "Use Executor 99/100% For Experience"})
+local Button = Forge:CreateButton({
+   Name = "zenith-hub",
+   Callback = function()
+   loadstring(game:HttpGet("https://zenithhub.cloud/panel/script"))()
+   end,
+})
+
+local Button = Forge:CreateButton({
+   Name = "Catraz-HUB",
+   Callback = function()
+   loadstring(game:HttpGet("https://raw.githubusercontent.com/nurvian/Catraz-HUB/refs/heads/main/Catraz/main.lua"))()
+   end,
+})
+
+local Button = Forge:CreateButton({
+   Name = "Lunor-Hub",
+   Callback = function()
+   loadstring(game:HttpGet("https://lunor.dev/loader"))()
+   end,
+})
+
+local Button = Forge:CreateButton({
+   Name = "Airflowsscript",
+   Callback = function()
+   loadstring(game:HttpGet("https://airflowsscript.com/loader"))()
+   end,
+})
+
+local Button = Forge:CreateButton({
+   Name = "Chiyo-Hub",
+   Callback = function()
+   loadstring(game:HttpGet("https://raw.githubusercontent.com/kaisenlmao/loader/refs/heads/main/chiyo.lua"))()
+   end,
+})
+
+local Button = Forge:CreateButton({
+   Name = "ForgeX",
+   Callback = function()
+   loadstring(game:HttpGet('https://raw.githubusercontent.com/AnonymoDGH/scripts/refs/heads/main/forgex.lua'))()
+   end,
+})
+
+local MainSection = Forge:CreateSection("Main Scripts V2")
+local Button = Forge:CreateButton({
+   Name = "Hydra-Hub",
+   Callback = function()
+   loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/17ed9911cd58c19ebce56b3a36d60320.lua"))()
+   end,
+})
+
+local Button = Forge:CreateButton({
+   Name = "Auto Forge",
+   Callback = function()
+   loadstring(game:HttpGet("https://raw.githubusercontent.com/XZuuyaX/TheForge/refs/heads/main/A%20F.luau"))()
+   end,
+})
+
+local Button = Forge:CreateButton({
+   Name = "Ryzen-Hub",
+   Callback = function()
+   loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/3e05c29156e4b16232286e86f97b97b4.lua"))()
+   end,
+})
+
+local Button = Forge:CreateButton({
+   Name = "Ather Hub",
+   Callback = function()
+   loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/2529a5f9dfddd5523ca4e22f21cceffa.lua"))()
+   end,
+})
+
+local Button = Forge:CreateButton({
+   Name = "Astra Hub",
+   Callback = function()
+   loadstring(game:HttpGet("https://getastra.lol/loader.lua"))()
+   end,
+})
+
 
 print("IOER HUB V2 loaded Successfully, Thanks for Using this script!")
 print("Created By IOER Hub, pastebin.com/u/ty4rds")
