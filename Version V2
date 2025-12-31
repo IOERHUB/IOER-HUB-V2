@@ -1,7 +1,7 @@
 local Rayfield = loadstring(game:HttpGet('https://sirius.menu/rayfield'))()
 
 local Window = Rayfield:CreateWindow({
-   Name = "🌌IOER HUB | Main Scripts V2 🖥️📱",
+   Name = "🌌 IOER HUB | Main Scripts V2 🖥️📱",
    LoadingTitle = "Main Scripts V2",
    LoadingSubtitle = "BY IOER HUB",
    ConfigurationSaving = {
@@ -16,6 +16,8 @@ local Blox = Window:CreateTab("🍇 Blox Fruits", nil)
 local Bro = Window:CreateTab("🏡 Brookhaven", nil)
 local Blind = Window:CreateTab("🧑‍🦯 Blind Shot", nil)
 local Forge = Window:CreateTab("⚒️ The Forge", nil)
+local Flick = Window:CreateTab("🔫 Flick", nil)
+
 
 Rayfield:Notify({
    Title = "Notification Alert",
@@ -32,12 +34,12 @@ Rayfield:Notify({
 },
 })
 
-local MainSection = Back:CreateSection("Back Scripts IOER Hub")
-local Paragraph = Back:CreateParagraph({Title = "⏪ Back Tab", Content = "Click Script For Back Tab"})
+local MainSection = Back:CreateSection("Information")
+local Paragraph = Back:CreateParagraph({Title = "⏪ Back", Content = "Click Script For Back"})
 local Button = Back:CreateButton({
-   Name = "<<Back - IOERHUB",
+   Name = "<< | Back To Select Scripts",
    Callback = function()
-   loadstring(game:HttpGet("https://raw.githubusercontent.com/IOERHUB/Main/refs/heads/main/Windows"))()
+   loadstring(game:HttpGet("https://raw.githubusercontent.com/IOERHUB/CHOOSE/refs/heads/main/IOERHUB%20CHOOSE"))()
    end,
 })
 
@@ -246,6 +248,44 @@ local Button = Forge:CreateButton({
    Name = "Astra Hub",
    Callback = function()
    loadstring(game:HttpGet("https://getastra.lol/loader.lua"))()
+   end,
+})
+
+local MainSection = Flick:CreateSection("Best Scripts")
+local Paragraph = Flick:CreateParagraph({Title = "⚠️ Information", Content = "Use Executor 99/100% For Experience, Enjoy!"})
+local Button = Flick:CreateButton({
+   Name = "RobloxScriptsFree1",
+   Callback = function()
+   loadstring(game:HttpGet("https://pastebin.com/raw/RZK9XdtH"))()
+   end,
+})
+
+local MainSection = Flick:CreateSection("Normal Scripts")
+local Button = Flick:CreateButton({
+   Name = "UNX HUB",
+   Callback = function()
+   loadstring(game:HttpGet("https://apigetunx.vercel.app/UNX.lua",true))()
+   end,
+})
+
+local Button = Flick:CreateButton({
+   Name = "Claude Hub",
+   Callback = function()
+   loadstring(game:HttpGet("https://raw.githubusercontent.com/CludeHub/BANKROLL-CS2-Menu/refs/heads/main/Bankroll-CludeHub.lua"))()
+   end,
+})
+
+local Button = Flick:CreateButton({
+   Name = "project 10",
+   Callback = function()
+   loadstring(game:HttpGet("https://rscripts.net/raw/dinas-project-10-aimbot-esp_1763806640379_klEHQpC3bs.txt",true))()
+   end,
+})
+
+local Button = Flick:CreateButton({
+   Name = "Syrex hub",
+   Callback = function()
+   loadstring(game:HttpGet("https://raw.githubusercontent.com/Joshingtonn123/JoshScript/refs/heads/main/SyrexhubSniperOrDie"))()
    end,
 })
 
