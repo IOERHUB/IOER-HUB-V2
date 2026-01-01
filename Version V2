@@ -17,6 +17,12 @@ local Bro = Window:CreateTab("🏡 Brookhaven", nil)
 local Blind = Window:CreateTab("🧑‍🦯 Blind Shot", nil)
 local Forge = Window:CreateTab("⚒️ The Forge", nil)
 local Flick = Window:CreateTab("🔫 Flick", nil)
+local Clicker = Window:CreateTab("👆 Race Clicker", nil)
+local Granny = Window:CreateTab("👵 Granny Multiplayer", nil)
+local Gef = Window:CreateTab("😶 GEF", nil)
+local One = Window:CreateTab("📦 One Block", nil)
+local Raft = Window:CreateTab("⛺ Survive On a Raft", nil)
+local Aura = Window:CreateTab("🎲 Aura Craft", nil)
 
 
 Rayfield:Notify({
@@ -143,7 +149,7 @@ local Button = Blind:CreateButton({
 })
 
 local Button = Blind:CreateButton({
-   Name = "No Name",
+   Name = "Blind V1",
    Callback = function()
    loadstring(game:HttpGet("https://pastebin.com/raw/vjB2N8PE"))()
    end,
@@ -286,6 +292,116 @@ local Button = Flick:CreateButton({
    Name = "Syrex hub",
    Callback = function()
    loadstring(game:HttpGet("https://raw.githubusercontent.com/Joshingtonn123/JoshScript/refs/heads/main/SyrexhubSniperOrDie"))()
+   end,
+})
+
+local MainSection = Clicker:CreateSection("Best Scripts")
+local Paragraph = Clicker:CreateParagraph({Title = "⚠️ Information", Content = "Use Executor 99/100% For Experience, Enjoy!"})
+local Button = Clicker:CreateButton({
+   Name = "ToraisMe",
+   Callback = function()
+   loadstring(game:HttpGet("https://raw.githubusercontent.com/ToraScript/Script/main/RaceClicker"))()
+   end,
+})
+
+local Button = Clicker:CreateButton({
+   Name = "Race Clicker",
+   Callback = function()
+   loadstring(game:HttpGet("https://raw.githubusercontent.com/darraghd493/roblox-scripts/main/loader/loader.lua",true))()
+   end,
+})
+
+local MainSection = Granny:CreateSection("Best Scripts")
+local Paragraph = Granny:CreateParagraph({Title = "⚠️ Information", Content = "Use Executor 99/100% For Experience, Enjoy!"})
+local Button = Granny:CreateButton({
+   Name = "The Best Scripts",
+   Callback = function()
+   loadstring(game:HttpGet("https://pastebin.com/raw/yYQMZUb6"))()
+   end,
+})
+
+local Button = Granny:CreateButton({
+   Name = "Veno Hub",
+   Callback = function()
+   loadstring(game:HttpGet("https://raw.githubusercontent.com/totallynothimplayz/Jd/refs/heads/main/Veno%20Hub", true))()
+   end,
+})
+
+local MainSection = Gef:CreateSection("Main Scripts")
+local Paragraph = Gef:CreateParagraph({Title = "⚠️ Information", Content = "Use Executor 99/100% For Experience, Enjoy!"})
+local Button = Gef:CreateButton({
+   Name = "MadbukScripts",
+   Callback = function()
+   loadstring(game:HttpGet("https://raw.githubusercontent.com/MadbukScripts/Scripts/main/Obfuscated%20Gef.lua"))()
+   end,
+})
+
+local Button = Gef:CreateButton({
+   Name = "GEF V1",
+   Callback = function()
+   loadstring(game:HttpGet("https://bit.ly/42NBXKe"))()
+   end,
+})
+
+local Button = Gef:CreateButton({
+   Name = "Juanko Scripts",
+   Callback = function()
+   loadstring(game:HttpGet("https://raw.githubusercontent.com/Juanko-Scripts/Roblox-scripts/refs/heads/main/GUFFHP%20%7C%20GEFF%20%7C%20BETA"))()
+   end,
+})
+
+local Button = Gef:CreateButton({
+   Name = "GEF V2",
+   Callback = function()
+   loadstring(game:HttpGet("https://raw.githubusercontent.com/Mongusohio/GefMadeBysederYTTv/main/GEFNOSKID", true))()
+   end,
+})
+
+local MainSection = One:CreateSection("Main Scripts")
+local Paragraph = One:CreateParagraph({Title = "⚠️ Information", Content = "Use Executor 99/100% For Experience, Enjoy!"})
+local Button = One:CreateButton({
+   Name = "One Block V1",
+   Callback = function()
+   loadstring(game:HttpGet("https://raw.githubusercontent.com/VylikGylik/Script/refs/heads/main/ONE%20BLOCK"))()
+   end,
+})
+
+local Button = One:CreateButton({
+   Name = "ToraIsme",
+   Callback = function()
+   loadstring(game:HttpGet("https://raw.githubusercontent.com/gumanba/Scripts/main/ONEBLOCK"))()
+   end,
+})
+
+local Button = One:CreateButton({
+   Name = "One Block V2",
+   Callback = function()
+   loadstring(game:HttpGet("https://raw.githubusercontent.com/welomenchaina/MainProjects/refs/heads/main/Obfuscated/OneBlockScript.lua", true))()
+   end,
+})
+
+local MainSection = Raft:CreateSection("Main Scripts")
+local Paragraph = Raft:CreateParagraph({Title = "⚠️ Information", Content = "Use Executor 99/100% For Experience, Enjoy!"})
+local Button = Raft:CreateButton({
+   Name = "Sayuri Hub",
+   Callback = function()
+   loadstring(game:HttpGet("https://pastebin.com/raw/0Nxqrum4"))()
+   end,
+})
+
+local Button = Raft:CreateButton({
+   Name = "ToraIsme",
+   Callback = function()
+   loadstring(game:HttpGet("https://raw.githubusercontent.com/gumanba/Scripts/main/SurviveonaRaft"))()
+   end,
+})
+
+local MainSection = Aura:CreateSection("Main Scripts")
+local Paragraph = Aura:CreateParagraph({Title = "⚠️ Information", Content = "Use Executor 99/100% For Experience, Enjoy!"})
+local Button = Aura:CreateButton({
+   Name = "Kaito Hub",
+   Callback = function()
+   loadstring(game:HttpGet("https://raw.githubusercontent.com/Kaitofyp/Aura-Craft-V.1/main/Op%20script"))()
    end,
 })
 
