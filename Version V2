@@ -32,7 +32,7 @@ Rayfield:Notify({
 local MainSection = Back:CreateSection("Down IOER Hub")
 local Paragraph = Back:CreateParagraph({Title = "❓ | Mismatch", Content = "Checking Version...."})
 local Paragraph = Back:CreateParagraph({Title = "❌ | Failed", Content = "Checking Has Been Failed To Loaded Rayfield"})
-local Back = Window:CreateTab("✅ | IOER HUB Support", nil)
+local MainSection = Back:CreateSection("IOER HUB Support")
 local Paragraph = Back:CreateParagraph({Title = "‼️ | Latest Version", Content = "V2.2.90"})
 local Paragraph = Back:CreateParagraph({Title = "⚠️ | Information", Content = "Now IOER HUB No Keyless 100% And Change Scripts, Go to New Scripts!"})
 local Paragraph = Back:CreateParagraph({Title = "🔗 | Link Scripts", Content = "https://pastebin.com/SupiaFUx"})
