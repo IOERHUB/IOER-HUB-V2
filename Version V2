@@ -24,7 +24,8 @@ local One = Window:CreateTab("📦 One Block", nil)
 local Raft = Window:CreateTab("⛺ Survive On a Raft", nil)
 local Aura = Window:CreateTab("🎲 Aura Craft", nil)
 local Me = Window:CreateTab("🦈 Fish Me", nil)
-
+local Paint = Window:CreateTab("🏹 Paintball 2", nil)
+local Climb = Window:CreateTab("🪜 Climb And Jump Tower", nil)
 
 
 Rayfield:Notify({
@@ -421,5 +422,28 @@ local Button = Me:CreateButton({
    Name = "Synce Hub",
    Callback = function()
    loadstring(game:HttpGet('https://raw.githubusercontent.com/Cuhila/FishMe/refs/heads/main/FishMeSecret.lua'))()
+   end,
+})
+
+local MainSection = Paint:CreateSection("Click F")
+local Button = Paint:CreateButton({
+   Name = "Auto Farm",
+   Callback = function()
+   loadstring(game:HttpGet("https://pastebin.com/raw/LitQ5wwa"))()
+   end,
+})
+
+local MainSection = Climb:CreateSection("Main Scripts")
+local Button = Climb:CreateButton({
+   Name = "ToraIsMe",
+   Callback = function()
+   loadstring(game:HttpGet("https://raw.githubusercontent.com/gumanba/Scripts/refs/heads/main/ClimbandJump", true))()
+   end,
+})
+
+local Button = Climb:CreateButton({
+   Name = "Auto Farm",
+   Callback = function()
+   loadstring(game:HttpGet(('https://pastefy.app/WiQK7IRI/raw'),true))()
    end,
 })
